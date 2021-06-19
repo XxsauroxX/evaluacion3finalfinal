@@ -8,7 +8,7 @@
         <EntityTypeShape EntityType="EmpresaModel.Editorial" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="EmpresaModel.Empleado" Width="1.5" PointX="3.5" PointY="0.625" IsExpanded="true" />
         <EntityTypeShape EntityType="EmpresaModel.Login" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="EmpresaModel.Revista" Width="1.5" PointX="2.375" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpresaModel.Revista" Width="1.5" PointX="3.5" PointY="3.125" IsExpanded="true" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
