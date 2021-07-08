@@ -12,14 +12,12 @@ namespace evaluacion3finalfinal
     using System;
     using System.Collections.Generic;
     
-    public partial class Revista
+    public partial class Contact
     {
-        public int ID { get; set; }
-        public Nullable<int> Volumen { get; set; }
-        public string Titulo { get; set; }
-        public Nullable<int> Precio { get; set; }
-        public Nullable<int> Cantidad { get; set; }
-        public string Descripcion { get; set; }
-        public byte[] imagen { get; set; }
+        public string nombre { get; set; }
+        public Nullable<int> telefono { get; set; }
+        public string email { get; set; }
+        public string mensaje { get; set; }
+        public int id { get; set; }
     }
 }

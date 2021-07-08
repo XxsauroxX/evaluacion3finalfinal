@@ -169,13 +169,31 @@
     <Compile Include="App_Start\IdentityConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
-    <Compile Include="server.cs" />
+    <Compile Include="AspNetRole.cs">
+      <DependentUpon>ModeloEmpresa.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUser.cs">
+      <DependentUpon>ModeloEmpresa.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserClaim.cs">
+      <DependentUpon>ModeloEmpresa.tt</DependentUpon>
+    </Compile>
+    <Compile Include="AspNetUserLogin.cs">
+      <DependentUpon>ModeloEmpresa.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Contact.cs">
+      <DependentUpon>ModeloEmpresa.tt</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ContactsController.cs" />
     <Compile Include="Controllers\EditorialsController.cs" />
     <Compile Include="Controllers\EmpleadoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\RevistaController.cs" />
+    <Compile Include="C__MigrationHistory.cs">
+      <DependentUpon>ModeloEmpresa.tt</DependentUpon>
+    </Compile>
     <Compile Include="Editorial.cs">
       <DependentUpon>ModeloEmpresa.tt</DependentUpon>
     </Compile>
@@ -211,6 +229,9 @@
       <DependentUpon>ModeloEmpresa.tt</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="sysdiagram.cs">
+      <DependentUpon>ModeloEmpresa.tt</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\bootstrap-theme.css" />
@@ -302,6 +323,11 @@
     <Content Include="Views\Editorials\Index.cshtml" />
     <Content Include="Views\Shared\_LoginComplete.cshtml" />
     <Content Include="Views\Revista\Listar.cshtml" />
+    <Content Include="Views\Contacts\Create.cshtml" />
+    <Content Include="Views\Contacts\Delete.cshtml" />
+    <Content Include="Views\Contacts\Details.cshtml" />
+    <Content Include="Views\Contacts\Edit.cshtml" />
+    <Content Include="Views\Contacts\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -12,14 +12,12 @@ namespace evaluacion3finalfinal
     using System;
     using System.Collections.Generic;
     
-    public partial class Revista
+    public partial class sysdiagram
     {
-        public int ID { get; set; }
-        public Nullable<int> Volumen { get; set; }
-        public string Titulo { get; set; }
-        public Nullable<int> Precio { get; set; }
-        public Nullable<int> Cantidad { get; set; }
-        public string Descripcion { get; set; }
-        public byte[] imagen { get; set; }
+        public string name { get; set; }
+        public int principal_id { get; set; }
+        public int diagram_id { get; set; }
+        public Nullable<int> version { get; set; }
+        public byte[] definition { get; set; }
     }
 }

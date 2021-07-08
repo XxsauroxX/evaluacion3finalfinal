@@ -12,14 +12,11 @@ namespace evaluacion3finalfinal
     using System;
     using System.Collections.Generic;
     
-    public partial class Revista
+    public partial class C__MigrationHistory
     {
-        public int ID { get; set; }
-        public Nullable<int> Volumen { get; set; }
-        public string Titulo { get; set; }
-        public Nullable<int> Precio { get; set; }
-        public Nullable<int> Cantidad { get; set; }
-        public string Descripcion { get; set; }
-        public byte[] imagen { get; set; }
+        public string MigrationId { get; set; }
+        public string ContextKey { get; set; }
+        public byte[] Model { get; set; }
+        public string ProductVersion { get; set; }
     }
 }

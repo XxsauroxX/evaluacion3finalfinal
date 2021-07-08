@@ -12,14 +12,12 @@ namespace evaluacion3finalfinal
     using System;
     using System.Collections.Generic;
     
-    public partial class Revista
+    public partial class AspNetUserLogin
     {
-        public int ID { get; set; }
-        public Nullable<int> Volumen { get; set; }
-        public string Titulo { get; set; }
-        public Nullable<int> Precio { get; set; }
-        public Nullable<int> Cantidad { get; set; }
-        public string Descripcion { get; set; }
-        public byte[] imagen { get; set; }
+        public string LoginProvider { get; set; }
+        public string ProviderKey { get; set; }
+        public string UserId { get; set; }
+    
+        public virtual AspNetUser AspNetUser { get; set; }
     }
 }
