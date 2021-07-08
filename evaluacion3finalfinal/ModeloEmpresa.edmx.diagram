@@ -6,7 +6,7 @@
     <edmx:Diagrams>
       <Diagram DiagramId="a9b81d419619477f9ad5bad0fd5bc575" Name="Diagram1">
         <EntityTypeShape EntityType="EmpresaModel.Editorial" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="EmpresaModel.Empleado" Width="1.5" PointX="3.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="EmpresaModel.Empleado" Width="1.5" PointX="2.625" PointY="0.625" IsExpanded="true" />
         <EntityTypeShape EntityType="EmpresaModel.Login" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="EmpresaModel.Revista" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
         <EntityTypeShape EntityType="EmpresaModel.C__MigrationHistory" Width="1.5" PointX="6.75" PointY="0.75" />
@@ -15,7 +15,7 @@
         <EntityTypeShape EntityType="EmpresaModel.AspNetUserLogin" Width="1.5" PointX="10.25" PointY="4" />
         <EntityTypeShape EntityType="EmpresaModel.AspNetUser" Width="1.5" PointX="8" PointY="4.375" />
         <EntityTypeShape EntityType="EmpresaModel.sysdiagram" Width="1.5" PointX="0.75" PointY="6.75" />
-        <EntityTypeShape EntityType="EmpresaModel.Contact" Width="1.5" PointX="2.75" PointY="6.75" />
+        <EntityTypeShape EntityType="EmpresaModel.Contact" Width="1.5" PointX="3" PointY="6.25" />
         <AssociationConnector Association="EmpresaModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
         <AssociationConnector Association="EmpresaModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
         <AssociationConnector Association="EmpresaModel.AspNetUserRoles" />
